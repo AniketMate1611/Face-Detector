@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Croissant One', cursive;
+  }
+
+  canvas {
+    position: absolute;
+  }
+  
+  .container{
+    background-color: #DDA0DD;
+    border: 5px solid #DDA0DD;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .facedetector{
+    color: #4B0082;
+    font-size: 40px;
+  }
